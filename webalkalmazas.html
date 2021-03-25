@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webalkalmazás</title>
+    <link rel="stylesheet" href="./webalkalmazas.css">
+    <style>
+    </style>
+</head>
+<body>
+    <main class="box">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="foto1.jpg" style="width:100%">
+                <div class="grey">
+                    <h1>International Space Station - ISS</h1>
+                    <p class="text">International Space Station (ISS): A $150-billion contraption floating 270 miles above Earth is one of the most impressive achievements of humankind.
+                        It's called the International Space Station (ISS), and a rotating astronaut crew has occupied it since 2000. 
+                        The work of those astronauts has yielded some incredible scientific insights.</p>
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="foto2.jpg" style="width:100%">
+                <div class="grey">
+                    <h1>Sunset from space</h1>
+                    <p class="text">See Sunset from an Astronaut's Perspective: Astronauts onboard the International Space Station see the Earth from a 
+                        unique perspective — for example, in one 24-hour period, they see not one sunrise and sunset, but 16 on average.
+                        Each changeover between day and night is marked by the terminator, a line on Earth's surface separating the sunlit side 
+                        from the darkness.</p>
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="foto3.jpg" style="width:100%">
+                <div class="grey">
+                    <h1>Amazing view from the windows</h1>
+                    <p class="text">In the Cupola on the International Space Station – a dome-shaped module with six windows that face Earth – 
+                        the view of our planet has become even more spectacular for those on board. The small module is designed for the observation of 
+                        operations outside the station such as robotic activities, the approach of vehicles, and spacewalks. But the direct, nadir 
+                        view of Earth through the windows is what astronauts enjoy the most.</p>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="foto4.jpg" style="width:100%">
+                <div class="grey">
+                    <h1>The Moon</h1>
+                    <p class="text">Moon: The last US mission to the Moon, Apollo 17, blasted off shortly before midnight on 7 December 1972. 
+                        Its crew spent three days on the lunar surface, collecting samples and conducting experiments.
+                        While China has said it aims to land astronauts on the Moon by the 2030s, in the decades since 
+                        the Apollo 17 mission no human has returned to walk on the Moon.</p>
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="foto5.jpg" style="width:100%">
+                <div class="grey">
+                    <h1>What Is a Spacewalk?</h1>
+                    <p class="text">Any time an astronaut gets out of a vehicle while in space, it is called a spacewalk. 
+                        A spacewalk is also called an EVA. EVA stands for extravehicular activity.
+                        The first person to go on a spacewalk was Alexei Leonov. He was from Russia. The first spacewalk was on March 18, 1965. 
+                        It was 10 minutes long.</p>
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="foto6.jpg" style="width:100%">
+                <div class="grey">
+                    <h1>Soyuz</h1>
+                    <p class="text">Astronauts escape malfunctioning Soyuz rocket: On Oct. 11, 2018, two astronauts piled into a Russian Soyuz spacecraft for what should have been a routine trip to the 
+                        International Space Station. But just a few minutes after liftoff, an issue with the Soyuz's rocket triggered 
+                        an emergency landing, which both crewmembers survived in good condition.</p>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="foto7.jpg" style="width:100%">
+                <div class="grey">
+                    <h1>MARS Expeditions</h1>
+                    <p class="text">Ice mined on Mars could provide water for humans exploring space: Mars is the focus for human settlement in space, 
+                        largely due to Elon Musk’s Space X, Mars One and NASA’s activities in this regard. The NASA human landing site selection 
+                        committee proposed 47 potential sites for a human occupied base on Mars. They considered not only scientific 
+                        regions of interest but also “resource regions of interest” – where there is accessible water.</p>
+                </div>
+            </div>
+                
+            <div class="mySlides fade">
+                <img src="foto8.jpg" style="width:100%">
+                <div class="grey">
+                    <h1>Desire of a dreamer</h1>
+                    <p class="text">“You want to wake up in the morning and think the future is going to be 
+                        great - and that’s what being a spacefaring civilization is all about. 
+                        It’s about believing in the future and thinking that the future will be better than the past. 
+                        And I can’t think of anything more exciting than going out there and being among the stars.”
+                        -Elon Musk</p>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </main>
+
+    <div style="text-align:center">
+        <ul>
+            <span><img src="foto1.jpg" class="thumbnails" onclick="currentSlide(1)">></span>
+            <span><img src="foto2.jpg" class="thumbnails" onclick="currentSlide(2)">></span>
+            <span><img src="foto3.jpg" class="thumbnails" onclick="currentSlide(3)">></span>
+            <span><img src="foto4.jpg" class="thumbnails" onclick="currentSlide(4)">></span>
+            <span><img src="foto5.jpg" class="thumbnails" onclick="currentSlide(5)">></span>
+            <span><img src="foto6.jpg" class="thumbnails" onclick="currentSlide(6)">></span>
+            <span><img src="foto7.jpg" class="thumbnails" onclick="currentSlide(7)">></span>
+            <span><img src="foto8.jpg" class="thumbnails" onclick="currentSlide(8)">></span>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="webalkalmazas.js"></script>
+</body>
+</html>
